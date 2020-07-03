@@ -601,7 +601,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806272976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.14, y: 0.28, z: 0}
+  m_LocalPosition: {x: 8, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -651,6 +651,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 306bd1331a183624da97e31957935a91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minX: 1
+  maxX: 15
+  screenWidthInUnits: 16
 --- !u!1 &822484566
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,7 +779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1201220851
 BoxCollider2D:
   m_ObjectHideFlags: 0
