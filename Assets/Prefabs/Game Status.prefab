@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4349250691364683846
+--- !u!1 &836029392337986175
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2455336881467354238}
-  - component: {fileID: 1403899511557761987}
-  - component: {fileID: 1403899511557761989}
+  - component: {fileID: 836029392337986173}
+  - component: {fileID: 836029392337986174}
   m_Layer: 0
-  m_Name: Level
+  m_Name: Game Status
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2455336881467354238
+--- !u!4 &836029392337986173
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4349250691364683846}
+  m_GameObject: {fileID: 836029392337986175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,28 +31,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1403899511557761987
+--- !u!114 &836029392337986174
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4349250691364683846}
+  m_GameObject: {fileID: 836029392337986175}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ffa3931f032e784da385e661cbf1e8d, type: 3}
+  m_Script: {fileID: 11500000, guid: 22e8fe6bff85d8747a5c5839c3ec7a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakableBlocks: 0
---- !u!114 &1403899511557761989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4349250691364683846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cff6188e18c2cd740b433954815af4db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  gameSpeed: 1
