@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f3e59137d9bf319448a6f172c14fa666, type: 3}
-  m_Color: {r: 0.6784314, g: 0.21727215, b: 0.08627452, a: 1}
+  m_Color: {r: 0.08627452, g: 0.6784314, b: 0.09347053, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -123,3 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockSound: {fileID: 8300000, guid: 5a5bcf59dcec3b9449ccb7f3571c75c3, type: 3}
   blockSparklesVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+  maxHits: 0
+  hitSprites: []
+  timesHit: 0
