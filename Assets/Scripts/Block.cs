@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class Block : MonoBehaviour
@@ -15,16 +16,22 @@ public class Block : MonoBehaviour
     {
         level = FindObjectOfType<Level>();
         gameStatus = FindObjectOfType<GameSession>();
-        level.CountBreakableBlocks(); 
+        if( tag == "Breakable")
+        {
+            level.CountBlocks();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        gameStatus.UpdateScore();
-        AudioSource.PlayClipAtPoint(blockSound, Camera.main.transform.position);
-        Destroy(gameObject);
-        level.BlockDestroyed();
-        TriggerSparklesVFX();
+        if( tag == "Breakable")
+        {
+            gameStatus.UpdateScore();
+            AudioSource.PlayClipAtPoint(blockSound, Camera.main.transform.position);
+            Destroy(gameObject);
+            level.BlockDestroyed();
+            TriggerSparklesVFX();
+        }
     }
 
     public void TriggerSparklesVFX()
