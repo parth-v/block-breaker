@@ -230,7 +230,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.43529412, g: 0.105882354, b: 0.15686275, a: 0}
+  m_BackGroundColor: {r: 0.090196066, g: 0.44313726, b: 0.3633664, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -640,9 +640,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.16567281, g: 0.53191847, b: 0.6886792, a: 1}
-    m_HighlightedColor: {r: 0.08009967, g: 0.42033002, b: 0.6792453, a: 1}
-    m_PressedColor: {r: 0.09344962, g: 0.29933798, b: 0.5660378, a: 1}
+    m_NormalColor: {r: 0.25342357, g: 0.8867924, b: 0.0292809, a: 1}
+    m_HighlightedColor: {r: 0.21733394, g: 0.7075472, b: 0.043387346, a: 1}
+    m_PressedColor: {r: 0.16807157, g: 0.5471698, b: 0.03355288, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1083,8 +1083,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.8962264, g: 0.08028855, b: 0.07186722, a: 1}
-    m_HighlightedColor: {r: 0.735849, g: 0.2556569, b: 0.05900677, a: 1}
-    m_PressedColor: {r: 0.5849056, g: 0.2701949, b: 0.0744927, a: 1}
+    m_HighlightedColor: {r: 0.754717, g: 0.16247247, b: 0.11747954, a: 1}
+    m_PressedColor: {r: 0.6132076, g: 0.05472931, b: 0.049172312, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
