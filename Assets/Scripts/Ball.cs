@@ -7,7 +7,7 @@ public class Ball : MonoBehaviour
     [SerializeField] float xVel = 2f;
     [SerializeField] float yVel = 15f;
     [SerializeField] AudioClip[] ballSounds;
-    [SerializeField] float randomFactor = 0.2f;  
+    [SerializeField] float randomFactor = 0.3f;  
     
     //state
     bool hasLaunched = false;
